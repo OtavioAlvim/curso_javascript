@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <script>
+        const person = {
+            nome : "Otavio",
+            age : 21,
+            address:{
+                street: "Av. Cidade de Deus",
+                city: "Pouso Alegre"
+            }
+        }
+        // adicionando mais campos no objeto
+        person.hair = "black";
+        
+        // -----------------------------------
+
+        console.log(JSON.stringify(person));
+        console.log(person.nome); 
+        console.log(`Ola, meu nome é ${person.nome}, tenho ${person.age} anos, moro no endereço: ${person.address.street}, bairro de: ${person.address.city} `)
+    </script>
+</body>
+</html>
