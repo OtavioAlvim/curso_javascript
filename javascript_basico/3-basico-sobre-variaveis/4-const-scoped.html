@@ -1,0 +1,16 @@
+<html>
+    <script>
+        const x = 10;
+        // o valor dele não pode ser alterado pois ele é uma constante
+        // uma constante tem que ter um valor de inicializador
+        console.log("x", x);
+        // definindo um scope
+        {
+            console.log("x", x);
+            const y = 30;
+        }
+        console.log("x", x);
+        console.log("y", y);
+        // const não é acessivel se for declarado em um scopo local
+    </script>
+</html>

@@ -1,0 +1,16 @@
+<html>
+    <script>
+        // var seria equivalente a uma variavel global
+        var x = 10;
+        console.log("x", x);
+        // definindo um scope
+        {
+            console.log("x", x);
+            x = 20
+            var y = 30;
+        }
+        console.log("x", x);
+        console.log("y", y);
+        // uma veriavel eu posso exibir ela em um scopo local e em escopo global e posso alterar tambem o valor tanto fora qanto dentro do scopo
+    </script>
+</html>

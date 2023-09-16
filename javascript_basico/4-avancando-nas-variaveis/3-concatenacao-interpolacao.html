@@ -1,0 +1,28 @@
+<html>
+    <script>
+        // declarar variaveis de forma a economizar linhas 
+        // utilizamos isso quando chamamos bloco de ações
+        let name = "Otavio",
+        age = 21,
+        addresss = {
+            city: "Pouso Alegre",
+            street: "Joao luiz",
+        };
+
+        console.log("name",name)
+        console.log("age",age)
+
+
+
+        // criando uma frase
+        // cantenação com javascript com + 
+        console.log("Ola meu nome é " + name + " tenho " + age + " anos e moro em " + JSON.stringify(addresss));
+
+        // interpolaçao com javascript
+        console.log(`${name} tem ${age} anos e mora em ${JSON.stringify(addresss)}`)
+        console.log(`${name} tem ${age + 1} anos.`)
+
+        // uma maneira de exibir um objeto no console, podemos usar o JSON.stringify(nome do objeto pra ele mostrar ele no console)
+        
+    </script>
+</html>

@@ -1,0 +1,15 @@
+<html>
+    <script>
+        let x = 10;
+        console.log("x", x);
+        // definindo um scope
+        {
+            console.log("x", x);
+            x = 20
+            let y = 30;
+        }
+        console.log("x", x);
+        console.log("y", y);
+        // let não é acessivel se for declarado em um scopo local
+    </script>
+</html>
