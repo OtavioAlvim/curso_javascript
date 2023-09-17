@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <script>
+        const person = {
+            name: "Felipe",
+            age: 40,
+            city: "São jose dos campos",
+        }
+
+        // podemos acessar aas propriedades de um array de duas formas 
+        // obj.prop
+        // obj['prop']
+        for (const prop in person) {
+            console.log(`Prop: ${prop} - ${person[prop]}`)
+        }
+    </script>
+</body>
+</html>

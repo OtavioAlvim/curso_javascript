@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <script>
+        try {
+            //consulta de banco de dados
+            // consulta de api
+            // consulta de banco de dados
+            // arquivos...
+            console.log("Consultando o banco de dados...")
+            //con.select("clientes" // ponto de falha)
+            throw "Erro 1032 ao conectar com o banco de dados"
+        }catch (error){
+            //erro
+            alert("Erro de execução generico. Por favor, fale com o suporte.")
+            console.error(error)
+        } finally {
+            // sempre executa no final (opcional)
+            console.log("Execução final")
+        }
+    </script>
+</body>
+</html>
