@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+</head>
+<body>
+    <script>
+        function sum(){
+            // argument
+            console.log(arguments)
+            
+            let res = 0
+            for(const n of arguments){
+                res += n
+            }
+
+            return res
+        }
+        let nome_qualquer = sum(10, 10, 20)
+        console.log(sum(1,2,3,5,64))
+    </script>
+</body>
+</html>
